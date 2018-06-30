@@ -1,0 +1,21 @@
+{
+  "name": "customer-records",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Pavel Vlasov <freakycue@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "@types/sinon": "^5.0.1",
+    "ava": "^0.25.0",
+    "sinon": "^6.0.1",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "test": "tsc && ava"
+  },
+  "dependencies": {}
+}
